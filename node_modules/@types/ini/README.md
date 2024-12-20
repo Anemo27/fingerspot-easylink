@@ -1,0 +1,39 @@
+# Installation
+> `npm install --save @types/ini`
+
+# Summary
+This package contains type definitions for ini (https://github.com/isaacs/ini).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ini.
+## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ini/index.d.ts)
+````ts
+interface EncodeOptions {
+    align?: boolean;
+    section?: string;
+    sort?: boolean;
+    whitespace?: boolean;
+    newline?: boolean;
+    platform?: string;
+    bracketedArray?: boolean;
+}
+
+export function decode(str: string): {
+    [key: string]: any;
+};
+export function parse(str: string): {
+    [key: string]: any;
+};
+export function encode(object: any, options?: EncodeOptions | string): string;
+export function stringify(object: any, options?: EncodeOptions | string): string;
+export function safe(val: string): string;
+export function unsafe(val: string): string;
+
+````
+
+### Additional Details
+ * Last updated: Tue, 05 Dec 2023 07:07:10 GMT
+ * Dependencies: none
+
+# Credits
+These definitions were written by [Marcin Porębski](https://github.com/marcinporebski), [Chris Arnesen](https://github.com/carnesen), and [Adaline Simonian](https://github.com/adalinesimonian).

@@ -1,0 +1,29 @@
+# Source
+src/
+
+# Tests
+__tests__/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Config files
+.gitignore
+.npmignore
+tsconfig.json
+jest.config.js
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
