@@ -5,7 +5,7 @@ A TypeScript/JavaScript library for communicating with multiple Fingerspot biome
 ## Installation
 
 ```bash
-npm install fingerspot-easylink
+npm install fingerspot-easylink-ts
 ```
 
 ## Usage
